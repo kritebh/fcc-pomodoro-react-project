@@ -2,17 +2,17 @@ import React, { useState } from "react";
 import "./App.css";
 import "./Length";
 import Length from "./Length";
+import beep from "./beep.wav"
 
 function App() {
   // State
-  const [displayTime, setDisplayTime] = useState(5);
-  const [breakTime, setBreakTime] = useState(3);
-  const [sessionTime, setSessionTime] = useState(5);
+  const [displayTime, setDisplayTime] = useState(25*60);
+  const [breakTime, setBreakTime] = useState(5*60);
+  const [sessionTime, setSessionTime] = useState(25*60);
   const [timerOn, setTimerOn] = useState(false);
   const [onBreak,setOnBreak] =useState(false)
-  const [breakAudio,setBreakAudio] = useState(
-    new Audio("./beep.wav")
-    )
+  const breakAudio = new Audio(beep)
+    
 
   // Play Beep Sound
 
