@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.time-sets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.margin{
+    margin: 7px;
+}
+
+.m-r{
+    margin-right: 7px;
+}
+
+.dual-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    margin: auto;
+    justify-items: center;
+    align-items: center;
+}
+
+@media (max-width:750px) {
+    .dual-container{
+        margin: 0;
+    }
+}
