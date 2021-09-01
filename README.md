@@ -2,4 +2,4 @@
 
 Live Link - [Pomodoro Clock](https://pomodoro-clock-mu.vercel.app/)
 
-![](/screenshot.png)
+![](/Screenshot.png)
